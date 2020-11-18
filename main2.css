@@ -1,0 +1,251 @@
+
+h2 { text-align: left; }
+
+.body_index { 
+  background-image: url("./Images/windows.jpg");
+  background-size: 77%;
+    /* background: #2412c0; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+    /* background-color: orange; */
+    
+  }
+.body_services-bg { 
+  background-image: url("./Images/Image_no31.jpg");
+  background-size: cover;
+        /* background: #2412c0; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  
+  }
+.body_support-bg {  
+  background-image: url("./Images/support.png");
+  background-size: cover;
+             /* background: #2412c0; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px; 
+  color: burlywood;                 
+  
+  }
+.body_aboutme-bg { 
+  background-image: url("./Images/aboutme.png");
+  background-size: cover;
+             /* background: #2412c0; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: bisque;                 
+ 
+  }
+.body_testim-bg { 
+  background-image: url("./Images/chameleon.jpg");
+  background-size: 100%;
+             /* background: #2412c0; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px; 
+   
+  }
+
+.block {
+  background-color: rgba(245, 245, 220, 0.292);
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 40px;
+  }
+
+#large_head {
+  padding-bottom: 30px;
+  padding-right: 500px;
+  }
+
+.viz_break {
+  font-size: 1px;
+  line-height: 1px;
+}
+ 
+#main_head {
+  border: rgba(0, 170, 255, 0) solid 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 90px;
+  }
+
+.supp_block {
+  background-color: rgba(30, 55, 179, 0.292);
+  padding-top: 440px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 5px
+  }
+a:active {
+  color: royalblue;
+  background-color: transparent;
+  text-decoration: underline;
+  }     
+
+a:link {
+  color: silver;
+  background-color: transparent;
+  text-decoration: none;
+  }
+
+a:visited {
+  color: rgb(8, 0, 255);
+  background-color: transparent;
+  text-decoration: none;
+  } 
+a:hover {
+  color: rgb(24, 230, 34);
+  background-color: transparent;
+  text-decoration: underline;
+  }  
+
+.customHr {
+  width: 100%;
+  font-size: 5px;
+  color: rgb(0, 0, 0);
+  background-color: grey;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  line-height: 150%;
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  /* background-color: #551bb1; */
+  }
+.box {
+  font-size: 30px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  padding: 15px;
+  flex: 1;
+  width: 100%;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.75), 0 10px 30px 0 rgba(0, 0, 0, 0.75);
+  /* position: fixed; */
+  top: 0;
+  /* display: flex;
+  flex-direction: row; */
+  }
+.navbar1 { background: rgba(211, 211, 211, 0.571);}
+.navbar2 { background: rgba(211, 211, 211, 0.571);}
+.navbar3 { background: rgba(211, 211, 211, 0.571);}
+.navbar4 { background: rgba(211, 211, 211, 0.571);}
+.navbar5 { background: rgba(211, 211, 211, 0.571);}
+.navbar6 { background: black;}
+.navbar7 { background:#2412c0;}
+.navbar8 { background:#2412c0;}
+.navbar9 { background:#2412c0;}
+.navbar10 { background:#2412c0;}
+
+* {box-sizing:border-box}
+
+/* Slideshow container
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+/* .mySlides {
+  display: none;
+} */
+
+/* Next & previous buttons */
+/* .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+} */
+
+/* Position the "next button" to the right */
+/* .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+/* .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+} */
+
+/* Caption text */
+/* .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+} */
+
+/* Number text (1/3 etc) */
+/* .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} */
+
+/* The dots/bullets/indicators */
+/* .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; */
+/* } */
+
+/* .active, .dot:hover {
+  background-color: #717171;
+} */
+
+/* Fading animation */
+/* .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+} */
+
+/* @-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+} */
+
+/* @keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+} */ 
+
+/* .div_navbar {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-size-adjust: none;
+} */
+
+/* .hide {
+    display: none;
